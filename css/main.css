@@ -52,6 +52,26 @@ main {
 }
 
 .tecnologias .cards-container .cards:hover {
-    box-shadow: 0px 0px 15px aqua;
-    
+    box-shadow: 0px 0px 15px aqua; 
+}
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main figure img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    border: solid aqua;
+    margin-bottom: 6%;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+main figure img:hover {
+    box-shadow: 0px 0px 10px aqua;
 }

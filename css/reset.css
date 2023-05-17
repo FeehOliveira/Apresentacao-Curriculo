@@ -24,8 +24,10 @@ a {
 
 .git :hover {
     color: black;
+    transition: 0.2s ease-in-out;
 }
 
 .linkedin :hover {
     color: rgb(53, 50, 228);
+    transition: 0.2s ease-in-out;
 }
