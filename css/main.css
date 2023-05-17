@@ -1,0 +1,57 @@
+main {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Main*/
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao h2 {
+    margin-bottom: 2%;
+    font-size: 1.9em;
+}
+
+.descricao {
+    margin-bottom: 10%;
+}
+
+.descricao p{
+    width: 75%;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+/*Cards*/
+.tecnologias .cards-container {
+    display: flex;
+    align-items: center;
+}
+
+.tecnologias .cards-container .cards{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    margin-right: .8em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+.tecnologias .cards-container .cards img {
+    width: 80%;
+}
+
+.tecnologias .cards-container .cards:hover {
+    box-shadow: 0px 0px 15px aqua;
+    
+}
